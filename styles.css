@@ -1,0 +1,113 @@
+body{
+    background-color:green;
+   
+    font-style:italic;
+    color:rgb(245, 244, 244);
+    line-height: 1.5;
+}
+
+h1 {
+    border-style:solid;
+    border-width: 5px;
+    border-color:red;
+
+    margin-left:200px;
+    margin-top:100px;
+    margin-right:200px;
+    margin-bottom: 100px;
+
+    /* padding-left: 20px; */
+    padding: 20px;
+
+    height:300px;
+    width: 400px;
+}
+
+p { 
+    border-style:dashed;
+    border-width:8px;
+    border-color:#058F96;
+}
+
+img {
+    border-style:double;
+    border-width: 10px;
+    border-color:#000000;
+}
+
+h2 {
+    background-color: burlywood;
+}
+
+.first {
+    background-color:chocolate;
+}
+
+.impact {
+    color: blue;
+
+    border-style:dotted;
+    border-width:3px;
+    border-color: black;
+}
+
+/* id selector */
+#myList {
+    border-style:solid;
+    border-width: 3px;
+    border-color:#000;
+
+    background-color:#f83;
+    color:#000;
+
+    width: 600px;
+    margin:auto;
+    padding:20px;
+
+}
+
+table{
+    background-color:darkseagreen;
+    color:black;
+    border-width:1px;
+    border-color:#058F96;
+    border-style:solid;
+    border-collapse:collapse;
+}
+
+th{
+    color:darkgreen;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:15px;
+    border-width:1px;
+    border-color:#058F96;
+    border-style:solid;
+    
+}
+
+td{
+    border-width:1px;
+    border-color:#058F96;
+    border-style:solid;
+    
+}
+
+#Schedule
+{
+    border-color:purple;
+    border-style:solid;
+    border-width:4px;
+    padding:25%;
+    
+
+}
+
+.Rainbow{
+    background-image: linear-gradient(to bottom, red, orange, yellow, green, blue, indigo, violet);
+}
+
+#wrapper{
+
+    width: 800px;
+    margin:auto;
+}
